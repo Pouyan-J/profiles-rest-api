@@ -1,3 +1,4 @@
+from profiles_api import views
 from rest_framework import permissions
 
 class UpdateOwnProfile(permissions.BasePermission):
